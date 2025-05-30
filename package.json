@@ -32,7 +32,6 @@
   },
   "dependencies": {
     "cross-fetch": "4.0.0",
-    "validate-vat-ts": "1.2.0",
     "jsvat-next": "3.0.2",
     "ein-validator": "1.0.1"
   },
