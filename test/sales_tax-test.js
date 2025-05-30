@@ -24,7 +24,6 @@ describe("node-sales-tax", function() {
     // Ensure tax number validation is enabled before each pass
     SalesTax.setTaxOriginCountry(null, true);
     SalesTax.toggleEnabledTaxNumberValidation(true);
-    SalesTax.toggleEnabledTaxNumberFraudCheck(true);
 
     // Restore monkey-patched methods before each pass
     SalesTax.__getCurrentDate = methodReferences.getCurrentDate;
